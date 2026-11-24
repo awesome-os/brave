@@ -1,0 +1,38 @@
+{
+  "name": "@awesome-os/brave",
+  "version": "0.1.0",
+  "description": "Debloated rolling-latest Brave Browser (Shields-only, zero crypto/Rewards/updater bloat) hydrated from awesome-os/b8g-ghost cas-v1 with a ~120 KB Lumi Hydration Splash launcher",
+  "type": "module",
+  "main": "./src/index.mts",
+  "module": "./src/index.mts",
+  "types": "./src/index.mts",
+  "bin": {
+    "brave": "./src/cli.mts"
+  },
+  "exports": {
+    ".": "./src/index.mts",
+    "./hydrate": "./src/hydrate.mts",
+    "./cli": "./src/cli.mts"
+  },
+  "scripts": {
+    "test": "node --test test/brave-cas.test.mts"
+  },
+  "keywords": [
+    "brave",
+    "browser",
+    "shields",
+    "debloated",
+    "b8g-ghost",
+    "awesome-os",
+    "cas",
+    "lumi-splash"
+  ],
+  "license": "MPL-2.0 OR MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesome-os/brave.git"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
