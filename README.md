@@ -2,6 +2,40 @@
 
 Debloated rolling-latest **Brave Browser (Shields-only, zero crypto/Rewards/updater bloat)** hydrated on demand from [`awesome-os/b8g-ghost`](https://github.com/awesome-os/b8g-ghost) (`cas-v1`) with a `~120 KB` native C11 **Lumi Hydration Splash** launcher.
 
+## Quick Install & Usage
+
+### Windows (PowerShell 1-liner)
+
+```powershell
+irm https://github.com/awesome-os/brave/releases/latest/download/install.ps1 | iex
+```
+
+### Linux (x64 / ARM64) & macOS (Apple Silicon)
+
+```sh
+curl -fsSL https://github.com/awesome-os/brave/releases/latest/download/install.sh | sh
+```
+
+### CLI Usage
+
+```powershell
+# Inspect installed launcher version & help
+brave --version
+brave --help
+
+# Launch Brave (Shields-only) or open a URL directly
+brave
+brave https://awesome-os.com
+
+# Optional: store hydrated CAS layers on a custom drive/path
+$env:B8G_GHOST_CACHE_DIR = "D:\b8g-cas"   # POSIX: export B8G_GHOST_CACHE_DIR=/data/b8g-cas
+brave https://awesome-os.com
+```
+
+### Releases & Verification
+
+- **Latest Release:** [`awesome-os/brave` Releases](https://github.com/awesome-os/brave/releases/latest) — includes `SHA256SUMS.txt` and the 5-OS matrix (`win64`, `linux-x64`, `linux-arm64`, `macos-arm64`, `wasm32-wasi`) built via [`awesome-os/maintenance-workflows`](https://github.com/awesome-os/maintenance-workflows).
+
 ## Highlights
 
 - **Zero Installer & Zero Updater Bloat:** Launches detached with `--no-first-run --disable-brave-update` from `~/.b8g/cas/brave/<sha256>/`.
