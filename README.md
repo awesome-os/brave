@@ -93,3 +93,13 @@ gcc -std=c11 -Os -s -Wall -Wextra src/brave_launcher.c -o dist/brave
 ## License
 
 Dual-licensed under **MPL-2.0 OR MIT**.
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/brave@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/brave?from=repository://github.com/awesome-os/brave@main"
+```
