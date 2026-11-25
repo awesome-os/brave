@@ -1,0 +1,159 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/brave",
+  "targets": [
+    "linux-arm64",
+    "linux-x64",
+    "macos-arm64",
+    "win64"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/brave/brave-linux-arm64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "linux-arm64",
+      "sha512": "df485c4700fc09008c59295466e4e7cc8c090607b6afd00b6b9b5b1d22165dfe4842ac22a250fed7e967251027dc9b95adadb19bb94585c0fa206f69bc8f346e",
+      "size": 43344,
+      "executable": true,
+      "blob": "v11/files/df/df485c4700fc09008c59295466e4e7cc8c090607b6afd00b6b9b5b1d22165dfe4842ac22a250fed7e967251027dc9b95adadb19bb94585c0fa206f69bc8f346e-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.1.0/brave-linux-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave-linux-arm64",
+      "kind": "bin",
+      "version": "v0.2.0",
+      "target": "linux-arm64",
+      "sha512": "db4185f46bdf8bcca60aee54eeb1fb4dc70d8b57774d1ae154c2d636f794f0b2a55fe9d6bbb5fec183ccbb5aa6cdd367198cee2a1270e2df7b7b950a49465152",
+      "size": 1158272,
+      "executable": true,
+      "blob": "v11/files/db/db4185f46bdf8bcca60aee54eeb1fb4dc70d8b57774d1ae154c2d636f794f0b2a55fe9d6bbb5fec183ccbb5aa6cdd367198cee2a1270e2df7b7b950a49465152-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/brave-linux-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave-linux-x64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "linux-x64",
+      "sha512": "5efa013b42d1ea00dd3bffd02089e300f91bfcee31762241699fc56a347e8cc5668fd0e2e98b3187e090a72089b5144c7d9ad488aa7f2e64b5640faebe098303",
+      "size": 37040,
+      "executable": true,
+      "blob": "v11/files/5e/5efa013b42d1ea00dd3bffd02089e300f91bfcee31762241699fc56a347e8cc5668fd0e2e98b3187e090a72089b5144c7d9ad488aa7f2e64b5640faebe098303-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.1.0/brave-linux-x64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave-linux-x64",
+      "kind": "bin",
+      "version": "v0.2.0",
+      "target": "linux-x64",
+      "sha512": "207bcae748cfddeaf571be91251b1a8996af014ae2f5e0b8d7666ebb6b4d4c5a25332cc22944f55c4ac2d267321574c45b42892dd5b827e84038f0e1dab6c426",
+      "size": 1104224,
+      "executable": true,
+      "blob": "v11/files/20/207bcae748cfddeaf571be91251b1a8996af014ae2f5e0b8d7666ebb6b4d4c5a25332cc22944f55c4ac2d267321574c45b42892dd5b827e84038f0e1dab6c426-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/brave-linux-x64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave-macos-arm64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "macos-arm64",
+      "sha512": "32a91e5f47a6c2574d38b2aaf207eb3918d47ed82bdcba95020f9526f2470c0c4423f259bf765b9c6fa4e0c05a08ab6e4722e4cd65603c665dd472f335180d88",
+      "size": 51568,
+      "executable": true,
+      "blob": "v11/files/32/32a91e5f47a6c2574d38b2aaf207eb3918d47ed82bdcba95020f9526f2470c0c4423f259bf765b9c6fa4e0c05a08ab6e4722e4cd65603c665dd472f335180d88-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.1.0/brave-macos-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave-macos-arm64",
+      "kind": "ghost-launcher",
+      "version": "v0.2.0",
+      "target": "macos-arm64",
+      "sha512": "63a5336b27f6de8a01c65b87202c9c725f729447f43c6fac21c26a3ba4eb878ea018a2b39647c1c7dedfc030f48689ab60f8cee08a6a4f4aa7a86223dd1249c0",
+      "size": 51840,
+      "executable": true,
+      "blob": "v11/files/63/63a5336b27f6de8a01c65b87202c9c725f729447f43c6fac21c26a3ba4eb878ea018a2b39647c1c7dedfc030f48689ab60f8cee08a6a4f4aa7a86223dd1249c0-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/brave-macos-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave.exe",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "win64",
+      "sha512": "382641b4e253cab6f032a39ab60413fec0b43adb6b217cf982075442ec55091519d08e32e9e76e6cd2548c92b50c43085b574ab24157478c75842656d3e55a42",
+      "size": 118784,
+      "executable": true,
+      "blob": "v11/files/38/382641b4e253cab6f032a39ab60413fec0b43adb6b217cf982075442ec55091519d08e32e9e76e6cd2548c92b50c43085b574ab24157478c75842656d3e55a42-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.1.0/brave.exe",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave.exe",
+      "kind": "ghost-launcher",
+      "version": "v0.2.0",
+      "target": "win64",
+      "sha512": "8197bdb3daa9e60fecf42153ff7173bded58724742bdb37d15c5125e4f7d2b9300edf00fd2c9825ef7d9c1ec2dfd4d50230b603f6a12a151d700845ce72892fc",
+      "size": 186368,
+      "executable": true,
+      "blob": "v11/files/81/8197bdb3daa9e60fecf42153ff7173bded58724742bdb37d15c5125e4f7d2b9300edf00fd2c9825ef7d9c1ec2dfd4d50230b603f6a12a151d700845ce72892fc-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/brave.exe",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/brave.pdb",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "win64",
+      "sha512": "002e1a5e76296049ba2e3d9e3445ca907091555aefff0e401d9fdf88482b840cbea76ef870980a310ef6021f39f201a8f420a0b6f5a3378a8aecae5caa1c1daf",
+      "size": 1187840,
+      "executable": false,
+      "blob": "v11/files/00/002e1a5e76296049ba2e3d9e3445ca907091555aefff0e401d9fdf88482b840cbea76ef870980a310ef6021f39f201a8f420a0b6f5a3378a8aecae5caa1c1daf",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/brave.pdb",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/install.ps1",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "win64",
+      "sha512": "98808279aa91300ef7857f291884e99d1d054e158f891e4dd41e56ebadda2e089a03b4bbf131305e90ecea8b076aa22fe858a83251fb1e2def36078ddd8de51b",
+      "size": 360,
+      "executable": false,
+      "blob": "v11/files/98/98808279aa91300ef7857f291884e99d1d054e158f891e4dd41e56ebadda2e089a03b4bbf131305e90ecea8b076aa22fe858a83251fb1e2def36078ddd8de51b",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/install.ps1",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/install.sh",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "054d1ab1ae4d62d55ca87e9a6437b20b6cd156fe860d2798e628f8abc2ead5c61ace2bfcfa7c8dc1adad87d5c686652d92ff17b8ca6dced3043327f1b6a2edfb",
+      "size": 533,
+      "executable": true,
+      "blob": "v11/files/05/054d1ab1ae4d62d55ca87e9a6437b20b6cd156fe860d2798e628f8abc2ead5c61ace2bfcfa7c8dc1adad87d5c686652d92ff17b8ca6dced3043327f1b6a2edfb-exec",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/install.sh",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/brave/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "7f4b02802da71daba8361ec5db26e49ea56d914cef0fd40a6ff5d66de8253790b8867cff13274c3d45c00797f4da21146c0592c610b28eb9fde2db1de056bbba",
+      "size": 557,
+      "executable": false,
+      "blob": "v11/files/7f/7f4b02802da71daba8361ec5db26e49ea56d914cef0fd40a6ff5d66de8253790b8867cff13274c3d45c00797f4da21146c0592c610b28eb9fde2db1de056bbba",
+      "url": "https://github.com/awesome-os/brave/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
