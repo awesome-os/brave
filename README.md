@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/chromium-baseline
+
 # `@awesome-os/brave`
 
 Debloated rolling-latest **Brave Browser (Shields-only, zero crypto/Rewards/updater bloat)** hydrated on demand from [`awesome-os/b8g-ghost`](https://github.com/awesome-os/b8g-ghost) (`cas-v1`) with a `~120 KB` native C11 **Lumi Hydration Splash** launcher.
